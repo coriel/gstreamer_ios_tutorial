@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D58F1A1D1CA4CB17004D3EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D58F1A1C1CA4CB17004D3EBC /* main.m */; };
+		D58F1A201CA4CB17004D3EBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D58F1A1F1CA4CB17004D3EBC /* AppDelegate.m */; };
+		D58F1A231CA4CB17004D3EBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58F1A221CA4CB17004D3EBC /* ViewController.m */; };
+		D58F1A251CA4CB17004D3EBC /* fonts.conf in Resources */ = {isa = PBXBuildFile; fileRef = D58F1A241CA4CB17004D3EBC /* fonts.conf */; };
+		D58F1A271CA4CB17004D3EBC /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D58F1A261CA4CB17004D3EBC /* Ubuntu-R.ttf */; };
+		D58F1A291CA4CB17004D3EBC /* gst_ios_init.m in Sources */ = {isa = PBXBuildFile; fileRef = D58F1A281CA4CB17004D3EBC /* gst_ios_init.m */; };
+		D58F1A2D1CA4CB17004D3EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58F1A2B1CA4CB17004D3EBC /* Main.storyboard */; };
+		D58F1A2F1CA4CB17004D3EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58F1A2E1CA4CB17004D3EBC /* Assets.xcassets */; };
+		D58F1A321CA4CB17004D3EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58F1A301CA4CB17004D3EBC /* LaunchScreen.storyboard */; };
+		D58F1A3A1CA4CB3E004D3EBC /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58F1A391CA4CB3E004D3EBC /* GStreamer.framework */; };
+		D58F1A3C1CA4CCF1004D3EBC /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D58F1A3B1CA4CCF1004D3EBC /* libiconv.tbd */; };
+		D58F1A421CA4CDC2004D3EBC /* GStreamerBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = D58F1A411CA4CDC2004D3EBC /* GStreamerBackend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D58F1A151CA4CB17004D3EBC /* HelloGstraemer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGstraemer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58F1A1C1CA4CB17004D3EBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D58F1A1E1CA4CB17004D3EBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D58F1A1F1CA4CB17004D3EBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D58F1A211CA4CB17004D3EBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D58F1A221CA4CB17004D3EBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D58F1A241CA4CB17004D3EBC /* fonts.conf */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = fonts.conf; sourceTree = "<group>"; };
+		D58F1A261CA4CB17004D3EBC /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		D58F1A281CA4CB17004D3EBC /* gst_ios_init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gst_ios_init.m; sourceTree = "<group>"; };
+		D58F1A2A1CA4CB17004D3EBC /* gst_ios_init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gst_ios_init.h; sourceTree = "<group>"; };
+		D58F1A2C1CA4CB17004D3EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D58F1A2E1CA4CB17004D3EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58F1A311CA4CB17004D3EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D58F1A331CA4CB17004D3EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58F1A391CA4CB3E004D3EBC /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GStreamer.framework; path = ../../../../../../Developer/GStreamer/iPhone.sdk/GStreamer.framework; sourceTree = "<group>"; };
+		D58F1A3B1CA4CCF1004D3EBC /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		D58F1A401CA4CDC2004D3EBC /* GStreamerBackend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GStreamerBackend.h; sourceTree = "<group>"; };
+		D58F1A411CA4CDC2004D3EBC /* GStreamerBackend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GStreamerBackend.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D58F1A121CA4CB17004D3EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58F1A3C1CA4CCF1004D3EBC /* libiconv.tbd in Frameworks */,
+				D58F1A3A1CA4CB3E004D3EBC /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D58F1A0C1CA4CB17004D3EBC = {
+			isa = PBXGroup;
+			children = (
+				D58F1A1A1CA4CB17004D3EBC /* HelloGstraemer */,
+				D58F1A171CA4CB17004D3EBC /* Frameworks */,
+				D58F1A161CA4CB17004D3EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D58F1A161CA4CB17004D3EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58F1A151CA4CB17004D3EBC /* HelloGstraemer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58F1A171CA4CB17004D3EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D58F1A3B1CA4CCF1004D3EBC /* libiconv.tbd */,
+				D58F1A391CA4CB3E004D3EBC /* GStreamer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D58F1A1A1CA4CB17004D3EBC /* HelloGstraemer */ = {
+			isa = PBXGroup;
+			children = (
+				D58F1A401CA4CDC2004D3EBC /* GStreamerBackend.h */,
+				D58F1A411CA4CDC2004D3EBC /* GStreamerBackend.m */,
+				D58F1A1E1CA4CB17004D3EBC /* AppDelegate.h */,
+				D58F1A1F1CA4CB17004D3EBC /* AppDelegate.m */,
+				D58F1A211CA4CB17004D3EBC /* ViewController.h */,
+				D58F1A221CA4CB17004D3EBC /* ViewController.m */,
+				D58F1A2B1CA4CB17004D3EBC /* Main.storyboard */,
+				D58F1A2E1CA4CB17004D3EBC /* Assets.xcassets */,
+				D58F1A301CA4CB17004D3EBC /* LaunchScreen.storyboard */,
+				D58F1A331CA4CB17004D3EBC /* Info.plist */,
+				D58F1A1B1CA4CB17004D3EBC /* Supporting Files */,
+			);
+			path = HelloGstraemer;
+			sourceTree = "<group>";
+		};
+		D58F1A1B1CA4CB17004D3EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D58F1A1C1CA4CB17004D3EBC /* main.m */,
+				D58F1A241CA4CB17004D3EBC /* fonts.conf */,
+				D58F1A261CA4CB17004D3EBC /* Ubuntu-R.ttf */,
+				D58F1A281CA4CB17004D3EBC /* gst_ios_init.m */,
+				D58F1A2A1CA4CB17004D3EBC /* gst_ios_init.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D58F1A141CA4CB17004D3EBC /* HelloGstraemer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58F1A361CA4CB17004D3EBC /* Build configuration list for PBXNativeTarget "HelloGstraemer" */;
+			buildPhases = (
+				D58F1A111CA4CB17004D3EBC /* Sources */,
+				D58F1A121CA4CB17004D3EBC /* Frameworks */,
+				D58F1A131CA4CB17004D3EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloGstraemer;
+			productName = HelloGstraemer;
+			productReference = D58F1A151CA4CB17004D3EBC /* HelloGstraemer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D58F1A0D1CA4CB17004D3EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = coriel;
+				TargetAttributes = {
+					D58F1A141CA4CB17004D3EBC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WSYU4872LT;
+					};
+				};
+			};
+			buildConfigurationList = D58F1A101CA4CB17004D3EBC /* Build configuration list for PBXProject "HelloGstraemer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D58F1A0C1CA4CB17004D3EBC;
+			productRefGroup = D58F1A161CA4CB17004D3EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D58F1A141CA4CB17004D3EBC /* HelloGstraemer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D58F1A131CA4CB17004D3EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58F1A2D1CA4CB17004D3EBC /* Main.storyboard in Resources */,
+				D58F1A271CA4CB17004D3EBC /* Ubuntu-R.ttf in Resources */,
+				D58F1A2F1CA4CB17004D3EBC /* Assets.xcassets in Resources */,
+				D58F1A321CA4CB17004D3EBC /* LaunchScreen.storyboard in Resources */,
+				D58F1A251CA4CB17004D3EBC /* fonts.conf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D58F1A111CA4CB17004D3EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58F1A291CA4CB17004D3EBC /* gst_ios_init.m in Sources */,
+				D58F1A231CA4CB17004D3EBC /* ViewController.m in Sources */,
+				D58F1A421CA4CDC2004D3EBC /* GStreamerBackend.m in Sources */,
+				D58F1A201CA4CB17004D3EBC /* AppDelegate.m in Sources */,
+				D58F1A1D1CA4CB17004D3EBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D58F1A2B1CA4CB17004D3EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58F1A2C1CA4CB17004D3EBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D58F1A301CA4CB17004D3EBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58F1A311CA4CB17004D3EBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D58F1A341CA4CB17004D3EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D58F1A351CA4CB17004D3EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D58F1A371CA4CB17004D3EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "\"~/Library/Developer/GStreamer/iPhone.sdk\"";
+				HEADER_SEARCH_PATHS = "\"~/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers\"";
+				INFOPLIST_FILE = HelloGstraemer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-lstdc++",
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					Foundation,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					AssetsLibrary,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					AssetsLibrary,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeshortcut.HelloGstraemer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D58F1A381CA4CB17004D3EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "\"~/Library/Developer/GStreamer/iPhone.sdk\"";
+				HEADER_SEARCH_PATHS = "\"~/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers\"";
+				INFOPLIST_FILE = HelloGstraemer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-lstdc++",
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					Foundation,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					AssetsLibrary,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					AssetsLibrary,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeshortcut.HelloGstraemer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D58F1A101CA4CB17004D3EBC /* Build configuration list for PBXProject "HelloGstraemer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58F1A341CA4CB17004D3EBC /* Debug */,
+				D58F1A351CA4CB17004D3EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58F1A361CA4CB17004D3EBC /* Build configuration list for PBXNativeTarget "HelloGstraemer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58F1A371CA4CB17004D3EBC /* Debug */,
+				D58F1A381CA4CB17004D3EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D58F1A0D1CA4CB17004D3EBC /* Project object */;
+}
